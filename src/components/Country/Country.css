@@ -1,12 +1,25 @@
-.country_item{
-    border: 2px solid red;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(193, 187, 187);
+.country_item {
+  border: 2px solid red;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(193, 187, 187);
 }
 
-.country_item img{
-    max-width: 320px;
-    height: 200px;
+.country_item_visited {
+  border: 2px solid red;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(224, 190, 190);
+}
+
+.country_item img {
+  max-width: 320px;
+  height: 200px;
+}
+
+.visitedBtn {
+  background-color: green;
+  color: #fff;
 }
